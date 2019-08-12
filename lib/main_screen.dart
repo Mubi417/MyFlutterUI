@@ -28,10 +28,10 @@ class _MainScreenState extends State<MainScreen> {
       ),
       bottomNavigationBar: FancyBottomNavigation(
         tabs: [
-          TabData(iconData: Icons.home, title: "Home"),
-          TabData(iconData: Icons.search, title: "Search"),
-          TabData(iconData: Icons.category, title: "Basket"),
-          TabData(iconData: Icons.flash_on, title: "Basket")
+          TabData(iconData: Icons.home, title: ""),
+          TabData(iconData: Icons.search, title: ""),
+          TabData(iconData: Icons.category, title: ""),
+          TabData(iconData: Icons.flash_on, title: "")
         ],
         onTabChangedListener: (position) {
           setState(() {
